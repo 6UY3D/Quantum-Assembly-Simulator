@@ -22,10 +22,9 @@ This document describes the key components and design choices behind the **Quant
 ```
 
 ## 3. State Vector Representation
-```plaintext
--Data Structure:
-  -An array (or pointer) of size 2^𝑛 for 𝑛 qubits.
-  -Each element holds a complex amplitude (real and imaginary parts).
--Assembly Optimization:
-  -Certain low-level operations are written in assembly to optimize matrix-vector multiplications, gate applications, etc.
-```
+- Data Structure:
+  - An array (or pointer) of size 2^𝑛 for 𝑛 qubits.
+  - Each element holds a complex amplitude (real and imaginary parts).
+- Assembly Optimization:
+  - Certain low-level operations are written in assembly to optimize matrix-vector multiplications, gate applications, etc.
+
