@@ -13,7 +13,6 @@
 - [Project Structure](#project-structure)
 - [How to Contribute](#how-to-contribute)
 - [License](#license)
-- [Contact](#contact)
 
 ---
 
@@ -50,13 +49,13 @@ Quantum computing relies on the principles of quantum mechanics to perform calcu
    ./scripts/build.sh
    This will compile all C and assembly files into an executable (e.g., quantum_simulator).
 
-Running an Example
+### Running an Example
 1. Go to the examples/ folder and choose a file (e.g., hello_world.qasm).
 2. Execute the simulator script with the selected file:
    ./scripts/run.sh examples/hello_world.qasm
 3. The simulator will parse the .qasm file, run the quantum circuit, and display the results.
 
-Project Structure
+## Project Structure
 quantum-assembly-simulator/
 ├── README.md
 ├── LICENSE
@@ -105,14 +104,14 @@ src/:
 examples/: Example .qasm programs demonstrating simulator capabilities.
 scripts/: Shell scripts for building and running the simulator.
 
-How to Contribute
+## How to Contribute
 1. Fork the repository and clone it locally.
 2. Create a new branch for your feature or fix.
 3. Commit your changes with clear messages.
 4. Push your branch to GitHub.
 5. Open a Pull Request describing your changes.
 
-License
+## License
 This project is licensed under the MIT License.
 
 
