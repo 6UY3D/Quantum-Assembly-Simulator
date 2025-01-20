@@ -46,3 +46,74 @@ Quantum computing relies on the principles of quantum mechanics to perform calcu
    ```bash
    git clone https://github.com/yourusername/quantum-assembly-simulator.git
    cd quantum-assembly-simulator
+2. Run the build script:
+   ./scripts/build.sh
+   This will compile all C and assembly files into an executable (e.g., quantum_simulator).
+
+Running an Example
+1. Go to the examples/ folder and choose a file (e.g., hello_world.qasm).
+2. Execute the simulator script with the selected file:
+   ./scripts/run.sh examples/hello_world.qasm
+3. The simulator will parse the .qasm file, run the quantum circuit, and display the results.
+
+Project Structure
+quantum-assembly-simulator/
+├── README.md
+├── LICENSE
+├── docs/
+│   ├── quantum_basics.md
+│   ├── simulator_architecture.md
+│   └── user_guide.md
+├── src/
+│   ├── core/
+│   │   ├── qubit.c
+│   │   ├── gate_operations.c
+│   │   ├── state_vector.c
+│   │   └── measurement.c
+│   ├── assembly/
+│   │   ├── lexer.c
+│   │   ├── parser.c
+│   │   └── interpreter.c
+│   ├── backend/
+│   │   ├── circuit_optimizer.c
+│   │   ├── parallel_execution.c
+│   │   └── memory_management.c
+│   ├── tests/
+│   │   ├── test_qubits.c
+│   │   ├── test_gates.c
+│   │   ├── test_parser.c
+│   │   └── test_simulator.c
+│   └── utils/
+│       ├── file_io.c
+│       ├── logger.c
+│       └── math_utils.c
+├── examples/
+│   ├── hello_world.qasm
+│   ├── quantum_teleportation.qasm
+│   └── grovers_algorithm.qasm
+└── scripts/
+    ├── build.sh
+    └── run.sh
+
+docs/: Contains design documentation and user guides.
+src/:
+  core/: Core quantum simulation logic (qubit representation, gates, measurement).
+  assembly/: Parser and interpreter for the custom quantum assembly language.
+  backend/: Optimization layers (circuit optimizations, parallelization, memory management).
+  tests/: Comprehensive unit and integration tests.
+  utils/: Helper modules (file I/O, logging, math utilities).
+examples/: Example .qasm programs demonstrating simulator capabilities.
+scripts/: Shell scripts for building and running the simulator.
+
+How to Contribute
+1. Fork the repository and clone it locally.
+2. Create a new branch for your feature or fix.
+3. Commit your changes with clear messages.
+4. Push your branch to GitHub.
+5. Open a Pull Request describing your changes.
+
+License
+This project is licensed under the MIT License.
+
+
+
