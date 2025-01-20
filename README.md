@@ -94,15 +94,15 @@ quantum-assembly-simulator/
     ├── build.sh
     └── run.sh
 
-docs/: Contains design documentation and user guides.
-src/:
-  core/: Core quantum simulation logic (qubit representation, gates, measurement).
-  assembly/: Parser and interpreter for the custom quantum assembly language.
-  backend/: Optimization layers (circuit optimizations, parallelization, memory management).
-  tests/: Comprehensive unit and integration tests.
-  utils/: Helper modules (file I/O, logging, math utilities).
-examples/: Example .qasm programs demonstrating simulator capabilities.
-scripts/: Shell scripts for building and running the simulator.
+- docs/: Contains design documentation and user guides.
+- src/:
+  - core/: Core quantum simulation logic (qubit representation, gates, measurement).
+  - assembly/: Parser and interpreter for the custom quantum assembly language.
+  - backend/: Optimization layers (circuit optimizations, parallelization, memory management).
+  - tests/: Comprehensive unit and integration tests.
+  - utils/: Helper modules (file I/O, logging, math utilities).
+- examples/: Example .qasm programs demonstrating simulator capabilities.
+- scripts/: Shell scripts for building and running the simulator.
 
 ## How to Contribute
 1. Fork the repository and clone it locally.
