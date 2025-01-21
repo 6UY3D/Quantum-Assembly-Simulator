@@ -1,5 +1,3 @@
-c
-
 #ifndef QUBIT_H
 #define QUBIT_H
 
