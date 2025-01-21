@@ -1,5 +1,3 @@
-c
-
 #ifndef STATE_VECTOR_H
 #define STATE_VECTOR_H
 
