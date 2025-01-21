@@ -1,5 +1,3 @@
-c
-
 #include "state_vector.h"
 #include <stdlib.h>
 #include <string.h>
