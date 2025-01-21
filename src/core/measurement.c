@@ -1,5 +1,3 @@
-c
-
 #include "measurement.h"
 #include <stdio.h>
 #include <math.h>
