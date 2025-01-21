@@ -1,5 +1,3 @@
-c
-
 #include "circuit_optimizer.h"
 #include <string.h>
 #include <stdio.h>
