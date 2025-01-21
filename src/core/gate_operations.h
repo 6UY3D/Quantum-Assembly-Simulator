@@ -1,5 +1,3 @@
-c
-
 #ifndef GATE_OPERATIONS_H
 #define GATE_OPERATIONS_H
 
