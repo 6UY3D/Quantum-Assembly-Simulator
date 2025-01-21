@@ -1,0 +1,20 @@
+1. Compile (example commands, adapt as needed):
+gcc -O3 -msse4.2 -c qubit.c
+gcc -O3 -msse4.2 -c state_vector.c
+gcc -O3 -msse4.2 -c gate_operations.c
+gcc -O3 -msse4.2 -c measurement.c
+gcc -o quantum_sim qubit.o state_vector.o gate_operations.o measurement.o
+
+2. Run:
+./quantum_sim
+
+3. Integration:
+- Link these core modules with your assembly layer (parser/interpreter) and backend (optimizations, parallel execution, memory management).
+- Add tests to verify multi-qubit gates, large qubit counts, advanced gate sequences, etc.
+
+4. Further Optimization:
+- Replace SSE with AVX or AVX-512 intrinsics if your hardware supports them, allowing 8 or 16 floats per vector register.
+- For extremely large systems, you may need distributed approaches (MPI) or GPU acceleration (CUDA, OpenCL).
+
+5. Error Handling:
+- The code uses integer return codes (0 = success, nonzero = error). You can integrate more robust error logging in your utils/logger.c or similar modules.
