@@ -1,5 +1,3 @@
-c
-
 #include "interpreter.h"
 #include "gate_operations.h"
 #include "measurement.h"
