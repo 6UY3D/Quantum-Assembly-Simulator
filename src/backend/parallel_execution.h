@@ -1,5 +1,3 @@
-c
-
 #ifndef PARALLEL_EXECUTION_H
 #define PARALLEL_EXECUTION_H
 
