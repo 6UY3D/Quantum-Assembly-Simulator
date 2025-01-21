@@ -1,5 +1,3 @@
-c
-
 #include "qubit.h"
 #include <math.h>
 #include <stdio.h>
