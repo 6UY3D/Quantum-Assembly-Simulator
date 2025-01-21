@@ -1,0 +1,17 @@
+Important:
+
+1. Adapt the inline assembly sections (asm volatile) for your target x86_64 environment (Intel, AMD, etc.).
+2. Ensure your compiler supports SSE/AVX intrinsics (e.g., -mavx or -msse4.2 flags).
+3. Depending on the size of your quantum system, you may need large amounts of memory.
+4. This code compiles, but you should still test and validate correctness thoroughly on your target hardware.
+
+Below is the directory structure we will fill out:
+src/core/
+├── qubit.h
+├── qubit.c
+├── state_vector.h
+├── state_vector.c
+├── gate_operations.h
+├── gate_operations.c
+├── measurement.h
+└── measurement.c
