@@ -1,5 +1,3 @@
-c
-
 #ifndef CIRCUIT_OPTIMIZER_H
 #define CIRCUIT_OPTIMIZER_H
 
