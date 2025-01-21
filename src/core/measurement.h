@@ -1,5 +1,3 @@
-c
-
 #ifndef MEASUREMENT_H
 #define MEASUREMENT_H
 
