@@ -31,3 +31,13 @@ gcc -o test_assembly test_assembly.c *.o -lpthread
 
 gcc -o test_backend test_backend.c *.o -lpthread
 ./test_backend
+```
+# Tips for Further Testing 
+1. Advanced Optimizations:
+- Expand the Circuit Optimizer tests to cover more gate combinations, multi-qubit gates, or multiple passes.
+2. Large Parallel Simulations:
+- Test parallel execution on large qubit counts (e.g., 10–15 qubits) to measure performance and look for race conditions.
+3. Stochastic / Random Testing:
+- Generate random gate sequences and compare results from single-thread to multi-thread execution to ensure consistency.
+4. Test Framework Integration:
+- If you adopt a unit test framework, rewrite these files into test cases with setup/teardown and automatic pass/fail reporting.
