@@ -43,7 +43,7 @@ Quantum computing relies on the principles of quantum mechanics to perform calcu
 ### Building the Simulator
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/quantum-assembly-simulator.git
+   git clone https://github.com/6UY3D/quantum-assembly-simulator.git
    cd quantum-assembly-simulator
 2. Run the build script:
    ./scripts/build.sh
