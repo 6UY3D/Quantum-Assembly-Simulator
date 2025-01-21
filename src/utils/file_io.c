@@ -1,5 +1,3 @@
-c
-
 #include "file_io.h"
 #include <stdlib.h>
 #include <string.h>
