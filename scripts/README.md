@@ -24,4 +24,8 @@ This folder contains shell scripts that facilitate building and running the Quan
   chmod +x scripts/*.sh
   ```
 - These scripts are simple references. You can integrate them into more sophisticated build systems (like Make, CMake, Ninja, etc.) as needed.
-
+- Make sure build.sh and run.sh are executable:
+  ```bash
+  chmod +x scripts/build.sh
+  chmod +x scripts/run.sh
+  ```
