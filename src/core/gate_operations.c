@@ -1,5 +1,3 @@
-c
-
 #include "gate_operations.h"
 #include <stdio.h>
 #include <math.h>
