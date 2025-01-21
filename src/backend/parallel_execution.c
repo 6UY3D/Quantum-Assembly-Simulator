@@ -1,5 +1,3 @@
-c
-
 #include "parallel_execution.h"
 #include <stdio.h>
 #include <stdlib.h>
