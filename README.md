@@ -56,6 +56,7 @@ Quantum computing relies on the principles of quantum mechanics to perform calcu
 3. The simulator will parse the .qasm file, run the quantum circuit, and display the results.
 
 ## Project Structure
+   ```bash
 quantum-assembly-simulator/
 ├── README.md
 ├── LICENSE
@@ -93,6 +94,7 @@ quantum-assembly-simulator/
 └── scripts/
     ├── build.sh
     └── run.sh
+   ```
 
 - docs/: Contains design documentation and user guides.
 - src/:
